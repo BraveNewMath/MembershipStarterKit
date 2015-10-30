@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Web.Http;
 using System.Web.Mvc;
+using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace SampleWebsite.Mvc3
+namespace SampleWebsite.Mvc4
 {
 	// Note: For instructions on enabling IIS6 or IIS7 classic mode, 
 	// visit http://go.microsoft.com/?LinkId=9394801
@@ -33,8 +31,10 @@ namespace SampleWebsite.Mvc3
 		{
 			AreaRegistration.RegisterAllAreas();
 
+            WebApiConfig.Register(GlobalConfiguration.Configuration);
 			RegisterGlobalFilters(GlobalFilters.Filters);
 			RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
 		}
 	}
 }

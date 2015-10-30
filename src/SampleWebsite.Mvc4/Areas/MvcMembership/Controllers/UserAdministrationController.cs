@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using System.Web.Security;
 using MvcMembership;
 using MvcMembership.Settings;
-using SampleWebsite.Mvc3.Areas.MvcMembership.Models.UserAdministration;
+using SampleWebsite.Mvc4.Areas.MvcMembership.Models.UserAdministration;
 
-namespace SampleWebsite.Mvc3.Areas.MvcMembership.Controllers
+namespace SampleWebsite.Mvc4.Areas.MvcMembership.Controllers
 {
 	[AuthorizeUnlessOnlyUser(Roles = "Administrator")] // allows access if you're the only user, only validates role if role provider is enabled
 	public class UserAdministrationController : Controller

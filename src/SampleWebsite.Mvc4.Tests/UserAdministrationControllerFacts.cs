@@ -8,12 +8,12 @@ using Moq;
 using MvcMembership;
 using MvcMembership.Settings;
 using PagedList;
-using SampleWebsite.Mvc3.Areas.MvcMembership.Controllers;
-using SampleWebsite.Mvc3.Areas.MvcMembership.Models.UserAdministration;
+using SampleWebsite.Mvc4.Areas.MvcMembership.Controllers;
+using SampleWebsite.Mvc4.Areas.MvcMembership.Models.UserAdministration;
 using Xunit;
 using Xunit.Extensions;
 
-namespace SampleWebsite.Tests
+namespace SampleWebsite.Mvc3.Tests
 {
 	public class UserAdministrationControllerFacts
 	{

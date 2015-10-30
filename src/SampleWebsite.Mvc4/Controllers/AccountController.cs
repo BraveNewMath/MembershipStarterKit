@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using System.Web.Routing;
 using System.Web.Security;
-using SampleWebsite.Mvc3.Models;
+using SampleWebsite.Mvc4.Models;
 
-namespace SampleWebsite.Mvc3.Controllers
+namespace SampleWebsite.Mvc4.Controllers
 {
 	public class AccountController : Controller
 	{

@@ -1,8 +1,46 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+            </hgroup>
+            <p>
+                To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
+            </p>
+            @if (!string.IsNullOrWhiteSpace(ViewBag.Message))
+            {
+                <p>
+                    @ViewBag.Message
+                </p>
+            }
+        </div>
+    </section>
+}
+<h3>Getting started:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>Create an account</h5>
+        An account lets you have access to the Thankx dashboard.
+    </li>
+    <li class="two">
+        <h5>Add an organization</h5>
+        This is your non-profit organization, or entity which recieves donations.
+    </li>
+    <li class="three">
+        <h5>Add your donor(s)</h5>
+        Keeping a clean list of donors will make it easier to thank them later.
+    </li>
+    <li class="four">
+        <h5>Enter donations</h5>
+        Each donation can be earmarked toward a specific project or to no project.
+    </li>
+    <li class="five">
+        <h5>Thank your donors</h5>
+        <div>You now have a live list of donors which are sorted according to their contribution amount. Embed it to  your site in an iframe if you like, or share on social media.</div>
 
-<h2>@ViewBag.Message</h2>
-<p>
-    To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
-</p>
+    </li>
+
+</ol>

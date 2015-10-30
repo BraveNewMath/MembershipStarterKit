@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using DataAnnotationsExtensions;
 
-namespace SampleWebsite.Mvc3.Areas.MvcMembership.Models.UserAdministration
+namespace SampleWebsite.Mvc4.Areas.MvcMembership.Models.UserAdministration
 {
 	public class CreateUserViewModel
 	{

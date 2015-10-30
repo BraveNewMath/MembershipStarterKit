@@ -1,8 +1,9 @@
 using DataAnnotationsExtensions.ClientValidation;
+using SampleWebsite.Mvc4;
 
-[assembly: WebActivator.PreApplicationStartMethod(typeof(SampleWebsite.Mvc3.App_Start.RegisterClientValidationExtensions), "Start")]
+[assembly: WebActivator.PreApplicationStartMethod(typeof(RegisterClientValidationExtensions), "Start")]
  
-namespace SampleWebsite.Mvc3.App_Start {
+namespace SampleWebsite.Mvc4 {
     public static class RegisterClientValidationExtensions {
         public static void Start() {
             DataAnnotationsModelValidatorProviderExtensions.RegisterValidationExtensions();            

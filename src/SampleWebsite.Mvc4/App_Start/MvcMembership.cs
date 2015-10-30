@@ -1,9 +1,9 @@
 ﻿using System.Web.Mvc;
 using MvcMembership;
 
-[assembly: WebActivator.PreApplicationStartMethod(typeof(SampleWebsite.Mvc3.App_Start.MvcMembership), "Start")]
+[assembly: WebActivator.PreApplicationStartMethod(typeof(SampleWebsite.Mvc4.MvcMembership), "Start")]
 
-namespace SampleWebsite.Mvc3.App_Start
+namespace SampleWebsite.Mvc4
 {
 	public static class MvcMembership
 	{

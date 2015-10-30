@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace SampleWebsite.Mvc3.Areas.MvcMembership
+namespace SampleWebsite.Mvc4.Areas.MvcMembership
 {
 	public class MvcMembershipAreaRegistration : AreaRegistration
 	{
