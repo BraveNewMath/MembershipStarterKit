@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "My Dashboard";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+            </hgroup>
+            @if (!string.IsNullOrWhiteSpace(ViewBag.Message))
+            {
+                <p>
+                    @ViewBag.Message
+                </p>
+            }
+        </div>
+    </section>
+}
+<h3>Add your secure content here!</h3>
