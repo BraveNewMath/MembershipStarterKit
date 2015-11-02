@@ -147,35 +147,36 @@ footer {
 /* login
 ----------------------------------------------------------*/
 #login {
-    display: block;
+    /*display: block;*/
     font-size: .85em;
-    margin: 0 0 10px;
-    text-align: right;
+    /*margin: 0 0 10px;*/
+    /*text-align: right;*/
+    float: right;
 }
 
-    #login a {
+    /*#login a {
         background-color: #d3dce0;
         margin-left: 10px;
         margin-right: 3px;
         padding: 2px 3px;
         text-decoration: none;
-    }
+    }*/
 
-    #login a.username {
+    /*#login a.username {
         background: none;
         margin: 0;
         padding: 0;
         text-decoration: underline;
-    }
+    }*/
 
-    #login ul {
+    /*#login ul {
         margin: 0;
-    }
+    }*/
 
-    #login li {
+    /*#login li {
         display: inline;
         list-style: none;
-    }
+    }*/
 
 
 /* menu
